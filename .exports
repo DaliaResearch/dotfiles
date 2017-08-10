@@ -28,3 +28,7 @@ export LESS_TERMCAP_md="${yellow}";
 
 # Don’t clear the screen after quitting a manual page.
 export MANPAGER='less -X';
+
+# Rails Development
+export DATABASE_HOST='127.0.0.1'
+export MONGO_HOST='127.0.0.1'
