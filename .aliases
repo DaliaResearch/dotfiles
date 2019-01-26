@@ -151,9 +151,6 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 alias reload="exec $SHELL -l"
 
 # Dalia Development Shortcuts
-alias cd_product_apps="cd ~/Development/Dalia/IT/Product/Apps/"
-alias cd_provider_apis_apps="cd ~/Development/Dalia/IT/ProviderAPIs/Apps/"
-
 alias gitfast="git add -A && git add -u && git commit -m 'WIP'"
 alias gitforceall="git push -f && git push -f origin HEAD:staging && git push -f origin HEAD:production"
 alias gitpushall="git push && git push origin HEAD:staging && git push origin HEAD:production"
